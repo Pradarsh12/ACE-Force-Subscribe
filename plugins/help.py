@@ -103,7 +103,7 @@ async def _help(client, message):
             if user.status == "kicked":
                await client.send_message(
                    chat_id=message.chat.id,
-                   text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/ACE_OffTopic).",
+                   text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/soonbotmaker0).",
                    parse_mode="markdown",
                    disable_web_page_preview=True
                )
