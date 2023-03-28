@@ -17,7 +17,7 @@ async def _start(client, message):
             if user.status == "kicked":
                await client.send_message(
                    chat_id=message.chat.id,
-                   text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/ACE_OffTopic).",
+                   text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/soonbotmaker0).",
                    parse_mode="markdown",
                    disable_web_page_preview=True
                )
@@ -42,11 +42,11 @@ async def _start(client, message):
 	        reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                           InlineKeyboardButton("Join Updates Channel", url="https://t.me/ACE_ML"),
-                           InlineKeyboardButton("Support Group", url="https://t.me/ACE_OffTopic")
+                           InlineKeyboardButton("Join Updates Channel", url="https://t.me/mittalbots"),
+                           InlineKeyboardButton("Support Group", url="https://t.me/mittalbots")
                       ],
                      [
-                           InlineKeyboardButton("🧑‍💻Devloper🧑‍💻", url="https://t.me/FlashSpeedster1")
+                           InlineKeyboardButton("🧑‍💻Devloper🧑‍💻", url="https://t.me/soonbotmaker0")
                      ]
                  ]
              ),
@@ -59,11 +59,11 @@ async def _start(client, message):
 	reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("Join Updates Channel", url="https://t.me/ACE_ML"),
-                    InlineKeyboardButton("Support Group", url="https://t.me/ACE_OffTopic")
+                    InlineKeyboardButton("Join Updates Channel", url="https://t.me/mittalbots"),
+                    InlineKeyboardButton("Support Group", url="https://t.me/mittalbots")
                 ],
                 [
-                    InlineKeyboardButton("🧑‍💻Devloper🧑‍💻", url="https://t.me/FlashSpeedster1")
+                    InlineKeyboardButton("🧑‍💻Devloper🧑‍💻", url="https://t.me/soonbotmaker0")
                 ]
             ]
         ),
@@ -79,14 +79,14 @@ async def _source_code(client, message):
 	reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("🌐 Source Code 🌐", url="https://t.me/ACE_ML")
+                    InlineKeyboardButton("🌐 Source Code 🌐", url="https://t.me/mittalbots")
                 ],
                 [
-                    InlineKeyboardButton("🌟 Join Channel", url="https://t.me/ACE_ML"),
-                    InlineKeyboardButton("💬 Support Group", url="https://t.me/ACE_OffTopic")
+                    InlineKeyboardButton("🌟 Join Channel", url="https://t.me/mittalbots"),
+                    InlineKeyboardButton("💬 Support Group", url="https://t.me/mittalbots")
                 ],
                 [
-                    InlineKeyboardButton("👨‍💻 Developer 🧑‍💻", url="https://t.me/FlashSpeedster1")
+                    InlineKeyboardButton("👨‍💻 Developer 🧑‍💻", url="https://t.me/soonbotmaker0")
                 ]
             ]
         ),
